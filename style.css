@@ -16,6 +16,14 @@ body {
 .header-nav {
   padding: 10px;
 }
+.header-h {
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: normal;
+}
+.header-p {
+  font-size: 1.5rem;
+}
 .header-nav a {
   text-decoration: none;
   color: blueviolet;
@@ -25,6 +33,10 @@ body {
 }
 .line-one {
   display: none;
+}
+.line-two {
+  background-color: #6ed9265f;
+  height: 1px;
 }
 .img-intro {
   display: flex;
@@ -83,4 +95,39 @@ body {
 }
 .line-2 {
   background-color: #611fad;
+}
+.edu {
+  padding: 30px;
+  margin: 30px;
+}
+.edu-c {
+  margin-bottom: 10px;
+}
+.edu-h {
+  margin-bottom: 20px;
+}
+.edu-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  list-style: none;
+  border-color: none;
+}
+td {
+  padding: 20px;
+}
+
+.projects {
+  padding: 30px;
+  margin: 30px;
+}
+.project-c {
+}
+.project-c h2 {
+}
+.project-c p {
+}
+.projects-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
 }
