@@ -3,35 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Jean Christar NIJIMBERE</h1>
-      <p>Etudiant Developpeur Frontend</p>
-      <nav>
-        <a href="#propos">A propos</a> |
-        <a href="#competences">Competences</a> |
-        <a href="#education">Eduction</a> | <a href="#project">Projects</a> |
-        <a href="#contact">Contact</a>
-      </nav>
+    <header class="header">
+      <div class="header-section">
+        <h1 class="header-h">Jean Christar Dev</h1>
+        <p class="header-p">Etudiant Developpeur Frontend</p>
+        <nav class="header-nav">
+          <a href="#propos">A propos</a> |
+          <a href="#competences">Competences</a> |
+          <a href="#education">Education</a> | <a href="#project">Projects</a> |
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
-    <hr />
+
+    <hr class="line-one" />
+
     <main>
       <section>
-        <h2 id="propos">A propos</h2>
-        <img src="./media/profile.png" alt="My profile image" width="300" />
-        <p>
-          Bonjour ! Je m'appelle Jean Christar. J'apprends actuellement le
-          developpement web et je construis mon premier site portfolio en
-          utilisant HTML. J'aime creer des sites web et apprendre les
-          technologies modernes utilisees par les developpeurs professionnels
-        </p>
-        <p>
-          Mon objectif est de devenir un developpeur frontend professionnel et
-          de creer des sites web et des applications qui aident les personnes et
-          les entreprises
-        </p>
+        <div class="img-intro">
+          <div class="img">
+            <h2 id="propos">A propos</h2>
+            <img
+              src="./media/IMG_30023.jpg"
+              alt="My profile image"
+              width="300"
+            />
+          </div>
+          <div class="intro">
+            <p class="moi">
+              <strong>Bonjour !</strong> <br />Je m'appelle
+              <strong>Jean Christar</strong>. J'apprends actuellement le
+              developpement web et je construis mon premier site portfolio en
+              utilisant HTML. <br />
+              J'aime creer des sites web et apprendre les technologies modernes
+              utilisees par les developpeurs professionnels
+            </p>
+            <p class="objectif">
+              <mark style="background-color: blueviolet">
+                Mon objectif est de devenir un developpeur frontend
+                professionnel et de creer des sites web et des applications qui
+                aident les personnes et les entreprises
+              </mark>
+            </p>
+          </div>
+        </div>
       </section>
       <hr />
       <section>
@@ -43,11 +62,14 @@
         <article>
           <h3>Technologies Frontend</h3>
           <ul>
-            <li>HTML - Creer la structure des pages web</li>
-            <li>CSS - Styliser les sites web et concevoir les mises en page</li>
+            <li><strong>HTML</strong> - Creer la structure des pages web</li>
             <li>
-              JavaScript - Ajouter de l'interactivite et du comportement
-              dynamique
+              <strong>CSS</strong> - Styliser les sites web et concevoir les
+              mises en page
+            </li>
+            <li>
+              <strong>JavaScript</strong> - Ajouter de l'interactivite et du
+              comportement dynamique
             </li>
           </ul>
         </article>
@@ -55,15 +77,21 @@
           <h3>Frameworks et Outils</h3>
           <ul>
             <li>
-              Vue.js - Construire des interfaces utilisateurs modernes et
-              interactives
+              <strong>Vue.js</strong> - Construire des interfaces utilisateurs
+              modernes et interactives
             </li>
             <li>
-              Ionic - Creer des applications mobiles en utilisant les
-              technologies web
+              <strong>Ionic</strong> - Creer des applications mobiles en
+              utilisant les technologies web
             </li>
-            <li>Git & GitHub - Gestion de version et collaboration</li>
-            <li>Visual Studio Code - Editeur de code professionnel</li>
+            <li>
+              <strong>Git & GitHub</strong> - Gestion de version et
+              collaboration
+            </li>
+            <li>
+              <strong>Visual Studio Code </strong>- Editeur de code
+              professionnel
+            </li>
           </ul>
         </article>
       </section>
@@ -84,19 +112,23 @@
           </thead>
           <tbody>
             <tr>
-              <td>2026</td>
+              <td rowspan="3">2026</td>
               <td>Hogi Academy</td>
               <td>School of Code</td>
             </tr>
             <tr>
-              <td>2022-2025</td>
+              <!-- <td>2022-2025</td> -->
               <td>ULT</td>
               <td>Genie Logiciel</td>
             </tr>
             <tr>
-              <td>2019-2022</td>
+              <!-- <td>2019-2022</td> -->
               <td>Lycee Kayanza</td>
               <td>Sciences B</td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td colspan="2">Primary School</td>
             </tr>
           </tbody>
         </table>
