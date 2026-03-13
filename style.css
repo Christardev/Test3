@@ -57,7 +57,16 @@ body {
 .main-2 {
   margin: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 40px;
   gap: 5px;
+}
+.tech {
+  padding: 10px;
+}
+.framework {
+  padding: 10px;
+}
+.line-2 {
+  background-color: #611fad;
 }
