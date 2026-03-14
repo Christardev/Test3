@@ -7,8 +7,11 @@ body {
   padding: 0;
 }
 .header {
-  /* background-image: url(./media/vecteezy_abstract-background-graphic-blue-pink-background_7461950.jpg); */
-  background-color: #7abcf0;
+  background-image: url(./media/vecteezy_abstract-background-graphic-blue-pink-background_7461950.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   box-sizing: border-box;
   background-position: center;
 }
