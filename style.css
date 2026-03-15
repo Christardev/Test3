@@ -116,7 +116,7 @@ body {
   margin-top: 20px;
   border-collapse: collapse;
   list-style: none;
-  border-color: none;
+  border-color: black;
 }
 td {
   padding: 20px;
@@ -210,7 +210,7 @@ form button {
 .edu {
   margin: 0;
   padding: 30px;
-  background-color: #dcddf1;
+  background-color: #9126d9;
 }
 .footer {
   text-align: center;
