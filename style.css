@@ -45,6 +45,7 @@ body {
 }
 .img-intro {
   display: flex;
+  background-color: #7abdf021;
 }
 .img {
   padding: 20px;
@@ -124,7 +125,7 @@ td {
 
 .projects {
   padding: 30px;
-  margin: 30px;
+  background-color: #7abdf021;
 }
 .project-c {
 }
@@ -176,6 +177,9 @@ form {
   background-color: #6ed926;
   padding: 30px;
   border-radius: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 form input {
   border-style: none;
@@ -216,6 +220,7 @@ form button {
   text-align: center;
   margin: 0;
   padding: 30px;
+  background-color: #7abdf021;
 }
 .footer p {
   margin: 10px;
