@@ -19,7 +19,7 @@ body {
 .header-h,
 .header-p,
 .header-nav {
-  padding: 10px;
+  padding: 20px;
 }
 .header-h {
   font-size: 2rem;
@@ -48,10 +48,10 @@ body {
   background-color: #7abdf021;
 }
 .img {
-  padding: 20px;
+  padding: 30px;
 }
 .intro {
-  padding: 30px;
+  padding: 40px;
   margin-top: 30px;
 }
 .img h2 {
@@ -192,7 +192,7 @@ form textarea {
   padding: 8px;
   border-radius: 10px;
 }
-form button {
+.btn {
   margin: 20px 0;
   border-style: none;
   padding: 10px;
@@ -200,7 +200,13 @@ form button {
   border-radius: 12px;
   display: flex;
   cursor: pointer;
+  border: 1px solid white;
+  background: #6ed926;
 }
+.btn:hover {
+  background: #abf8774f;
+}
+
 .message {
   background-color: #6ed9265f;
   margin: 0;
