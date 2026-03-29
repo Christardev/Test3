@@ -34,7 +34,7 @@ body {
 }
 .header-nav a {
   text-decoration: none;
-  color: blueviolet;
+  color: #8a2be2;
 }
 .header-section {
   padding: 20px;
@@ -236,4 +236,10 @@ form textarea {
 }
 .footer a {
   text-decoration: none;
+}
+.up_icon img {
+  width: 30px;
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.5rem;
 }
